@@ -1,0 +1,50 @@
+/* body part */
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* button  */
+
+button{
+    top: 5vh;
+    position: relative;
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* hover on button */
+
+ button:hover{
+    box-shadow: 0px 0px 2px 1px cyan;
+}
+
+/* container or div part where we add balls */
+
+#container{
+    top:20vh;
+    background-color: rgb(234, 250, 248);
+    width: 90vw;
+    min-height: 70px;
+    position: relative;
+    border-bottom: 3px double lightgrey;
+    border-right: 3px double lightgrey;
+    border-left: 3px double lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+/* ball part  */
+
+.ball-in{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+}
